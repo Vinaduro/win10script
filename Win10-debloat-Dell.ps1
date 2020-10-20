@@ -43,7 +43,9 @@ $tweaks = @(
 	"InstallPlex",
 	"InstallMSTeams",
 	"InstallTeamViewer",
+	"InstallDellUpdater",
 	"ChangeDefaultApps",
+	
 
 	### Windows Apps
 	"DebloatAll",
@@ -187,7 +189,7 @@ $tweaks = @(
 
 	### Unpinning ###
 	"UnpinStartMenuTiles",
-	"UnpinTaskbarIcons"
+	"UnpinTaskbarIcons",
 
 	### Auxiliary Functions ###
 )
@@ -257,6 +259,10 @@ Function InstallTitusProgs {
 
 Function InstallAdobe {
 	Show-Choco-Menu -Title "Do you want to install Adobe Creative Cloud Client 1.0?" -ChocoInstall "adobe-creative-cloud"
+}
+
+Function InstallDellUpdater {
+	Show-Choco-Menu -Title "Do you want to install Dell Command | Update?" -ChocoInstall "dellcommandupdate"
 }
 
 Function InstallChrome {
@@ -2711,3 +2717,4 @@ If ($args) {
 
 # Call the desired tweak functions
 $tweaks | ForEach { Invoke-Expression $_ }
+
