@@ -1,15 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DefaultAssociations>
-  <Association Identifier=".3g2" ProgId="VLC.3g2" ApplicationName="VLC media player" />
-  <Association Identifier=".3gp" ProgId="VLC.3gp" ApplicationName="VLC media player" />
-  <Association Identifier=".3gp2" ProgId="VLC.3gp2" ApplicationName="VLC media player" />
-  <Association Identifier=".3gpp" ProgId="VLC.3gpp" ApplicationName="VLC media player" />
+  <Association Identifier=".264" ProgId="mplayerc64.264" ApplicationName="MPC-HC (x64)" />
+  <Association Identifier=".3g2" ProgId="mplayerc64.3g2" ApplicationName="MPC-HC (x64)" />
+  <Association Identifier=".3gp" ProgId="mplayerc64.3gp" ApplicationName="MPC-HC (x64)" />
+  <Association Identifier=".3gp2" ProgId="mplayerc64.3gp2" ApplicationName="MPC-HC (x64)" />
+  <Association Identifier=".3gpp" ProgId="mplayerc64.3gpp" ApplicationName="MPC-HC (x64)" />
+  <Association Identifier=".amv" ProgId="mplayerc64.amv" ApplicationName="MPC-HC (x64)" />
+  <Association Identifier=".asf" ProgId="mplayerc64.asf" ApplicationName="MPC-HC (x64)" />
+  <Association Identifier=".avi" ProgId="mplayerc64.avi" ApplicationName="MPC-HC (x64)" />
+  <Association Identifier=".bdmv" ProgId="mplayerc64.bdmv" ApplicationName="MPC-HC (x64)" />
+  <Association Identifier=".dav" ProgId="mplayerc64.dav" ApplicationName="MPC-HC (x64)" />
+  <Association Identifier=".divx" ProgId="mplayerc64.divx" ApplicationName="MPC-HC (x64)" />
+  <Association Identifier=".dv" ProgId="mplayerc64.dv" ApplicationName="MPC-HC (x64)" />
+  <Association Identifier=".evo" ProgId="mplayerc64.evo" ApplicationName="MPC-HC (x64)" />
+  <Association Identifier=".f4v" ProgId="mplayerc64.f4v" ApplicationName="MPC-HC (x64)" />
+  <Association Identifier=".flv" ProgId="mplayerc64.flv" ApplicationName="MPC-HC (x64)" />
+  <Association Identifier=".hdmov" ProgId="mplayerc64.hdmov" ApplicationName="MPC-HC (x64)" />
+  <Association Identifier=".ifo" ProgId="mplayerc64.ifo" ApplicationName="MPC-HC (x64)" />
+  <Association Identifier=".ivf" ProgId="mplayerc64.ivf" ApplicationName="MPC-HC (x64)" />
+  <Association Identifier=".m1v" ProgId="mplayerc64.m1v" ApplicationName="MPC-HC (x64)" />
+  <Association Identifier=".m2p" ProgId="mplayerc64.m2p" ApplicationName="MPC-HC (x64)" />
+  <Association Identifier=".m2t" ProgId="mplayerc64.m2t" ApplicationName="MPC-HC (x64)" />
+  <Association Identifier=".m2ts" ProgId="mplayerc64.m2ts" ApplicationName="MPC-HC (x64)" />
+  <Association Identifier=".M2V" ProgId="mplayerc64.m2v" ApplicationName="MPC-HC (x64)" />
+  <Association Identifier=".m4v" ProgId="mplayerc64.m4v" ApplicationName="MPC-HC (x64)" />
+  <Association Identifier=".mk3d" ProgId="mplayerc64.mk3d" ApplicationName="MPC-HC (x64)" />
+  <Association Identifier=".mkv" ProgId="mplayerc64.mkv" ApplicationName="MPC-HC (x64)" />
+  <Association Identifier=".mov" ProgId="mplayerc64.mov" ApplicationName="MPC-HC (x64)" />
+  <Association Identifier=".mp2v" ProgId="mplayerc64.mp2v" ApplicationName="MPC-HC (x64)" />
+  <Association Identifier=".mp4" ProgId="mplayerc64.mp4" ApplicationName="MPC-HC (x64)" />
+  <Association Identifier=".mp4v" ProgId="mplayerc64.mp4v" ApplicationName="MPC-HC (x64)" />
+  <Association Identifier=".MPE" ProgId="mplayerc64.mpe" ApplicationName="MPC-HC (x64)" />
+  <Association Identifier=".mpeg" ProgId="mplayerc64.mpeg" ApplicationName="MPC-HC (x64)" />
+  <Association Identifier=".mpg" ProgId="mplayerc64.mpg" ApplicationName="MPC-HC (x64)" />
+  <Association Identifier=".mpls" ProgId="mplayerc64.mpls" ApplicationName="MPC-HC (x64)" />
+  <Association Identifier=".mpv2" ProgId="mplayerc64.mpv2" ApplicationName="MPC-HC (x64)" />
+  <Association Identifier=".mpv4" ProgId="mplayerc64.mpv4" ApplicationName="MPC-HC (x64)" />
+  <Association Identifier=".mts" ProgId="mplayerc64.mts" ApplicationName="MPC-HC (x64)" />
+  <Association Identifier=".mxf" ProgId="mplayerc64.mxf" ApplicationName="MPC-HC (x64)" />
+  <Association Identifier=".ogm" ProgId="mplayerc64.ogm" ApplicationName="MPC-HC (x64)" />
+  <Association Identifier=".ogv" ProgId="mplayerc64.ogv" ApplicationName="MPC-HC (x64)" />
+  <Association Identifier=".ram" ProgId="mplayerc64.ram" ApplicationName="MPC-HC (x64)" />
+  <Association Identifier=".rec" ProgId="mplayerc64.rec" ApplicationName="MPC-HC (x64)" />
+  <Association Identifier=".rm" ProgId="mplayerc64.rm" ApplicationName="MPC-HC (x64)" />
+  <Association Identifier=".rmvb" ProgId="mplayerc64.rmvb" ApplicationName="MPC-HC (x64)" />
+  <Association Identifier=".ssif" ProgId="mplayerc64.ssif" ApplicationName="MPC-HC (x64)" />
+  <Association Identifier=".tp" ProgId="mplayerc64.tp" ApplicationName="MPC-HC (x64)" />
+  <Association Identifier=".tps" ProgId="mplayerc64.tps" ApplicationName="MPC-HC (x64)" />
+  <Association Identifier=".trp" ProgId="mplayerc64.trp" ApplicationName="MPC-HC (x64)" />
+  <Association Identifier=".TS" ProgId="mplayerc64.ts" ApplicationName="MPC-HC (x64)" />
+  <Association Identifier=".video" ProgId="mplayerc64.video" ApplicationName="MPC-HC (x64)" />
+  <Association Identifier=".vob" ProgId="mplayerc64.vob" ApplicationName="MPC-HC (x64)" />
+  <Association Identifier=".webm" ProgId="mplayerc64.webm" ApplicationName="MPC-HC (x64)" />
+  <Association Identifier=".wmv" ProgId="mplayerc64.wmv" ApplicationName="MPC-HC (x64)" />
   <Association Identifier=".3mf" ProgId="AppXvhc4p7vz4b485xfp46hhk3fq3grkdgjg" />
   <Association Identifier=".ani" ProgId="IrfanView.ani" ApplicationName="IrfanView 64-bit" />
   <Association Identifier=".arw" ProgId="AppX43hnxtbyyps62jhe9sqpdzxn1790zetc" />
-  <Association Identifier=".asf" ProgId="VLC.asf" ApplicationName="VLC media player" />
-  <Association Identifier=".asx" ProgId="VLC.asx" ApplicationName="VLC media player" />
-  <Association Identifier=".avi" ProgId="VLC.avi" ApplicationName="VLC media player" />
   <Association Identifier=".bmp" ProgId="IrfanView.bmp" ApplicationName="IrfanView 64-bit" />
   <Association Identifier=".cr2" ProgId="IrfanView.cr2" ApplicationName="IrfanView 64-bit" />
   <Association Identifier=".crw" ProgId="IrfanView.crw" ApplicationName="IrfanView 64-bit" />
@@ -34,24 +80,9 @@
   <Association Identifier=".kdc" ProgId="IrfanView.kdc" ApplicationName="IrfanView 64-bit" />
   <Association Identifier=".lbm" ProgId="IrfanView.iff" ApplicationName="IrfanView 64-bit" />
   <Association Identifier=".log" ProgId="Applications\notepad++.exe" ApplicationName="Notepad++ : a free (GNU) source code editor" />
-  <Association Identifier=".m1v" ProgId="VLC.m1v" ApplicationName="VLC media player" />
-  <Association Identifier=".m2t" ProgId="VLC.m2t" ApplicationName="VLC media player" />
-  <Association Identifier=".m2ts" ProgId="VLC.m2ts" ApplicationName="VLC media player" />
-  <Association Identifier=".m4v" ProgId="VLC.m4v" ApplicationName="VLC media player" />
-  <Association Identifier=".mkv" ProgId="VLC.mkv" ApplicationName="VLC media player" />
   <Association Identifier=".mod" ProgId="AppX6eg8h5sxqq90pv53845wmnbewywdqq5h" />
-  <Association Identifier=".mov" ProgId="VLC.mov" ApplicationName="VLC media player" />
   <Association Identifier=".MP2" ProgId="WMP11.AssocFile.MP3" ApplicationName="Windows Media Player" />
-  <Association Identifier=".mp2v" ProgId="VLC.mp2v" ApplicationName="VLC media player" />
-  <Association Identifier=".mp4" ProgId="VLC.mp4" ApplicationName="VLC media player" />
-  <Association Identifier=".mp4v" ProgId="VLC.mp4v" ApplicationName="VLC media player" />
-  <Association Identifier=".mpa" ProgId="VLC.mpa" ApplicationName="VLC media player" />
-  <Association Identifier=".MPE" ProgId="VLC.mpe" ApplicationName="VLC media player" />
-  <Association Identifier=".mpeg" ProgId="VLC.mpeg" ApplicationName="VLC media player" />
-  <Association Identifier=".mpg" ProgId="VLC.mpg" ApplicationName="VLC media player" />
-  <Association Identifier=".mpv2" ProgId="VLC.mpv2" ApplicationName="VLC media player" />
   <Association Identifier=".mrw" ProgId="AppX43hnxtbyyps62jhe9sqpdzxn1790zetc" />
-  <Association Identifier=".mts" ProgId="VLC.mts" ApplicationName="VLC media player" />
   <Association Identifier=".nef" ProgId="AppX43hnxtbyyps62jhe9sqpdzxn1790zetc" />
   <Association Identifier=".nrw" ProgId="AppX43hnxtbyyps62jhe9sqpdzxn1790zetc" />
   <Association Identifier=".ogm" ProgId="AppX6eg8h5sxqq90pv53845wmnbewywdqq5h" />
@@ -59,7 +90,7 @@
   <Association Identifier=".ogx" ProgId="AppX6eg8h5sxqq90pv53845wmnbewywdqq5h" />
   <Association Identifier=".orf" ProgId="AppX43hnxtbyyps62jhe9sqpdzxn1790zetc" />
   <Association Identifier=".pcx" ProgId="IrfanView.pcx" ApplicationName="IrfanView 64-bit" />
-  <Association Identifier=".pdf" ProgId="AppXd4nrz8ff68srnhf9t5a8sbjyar1cr723" ApplicationName="Microsoft Edge" />
+  <Association Identifier=".pdf" ProgId="Acrobat.Document.DC" ApplicationName="Adobe Acrobat DC" />
   <Association Identifier=".pef" ProgId="AppX43hnxtbyyps62jhe9sqpdzxn1790zetc" />
   <Association Identifier=".pgm" ProgId="IrfanView.pgm" ApplicationName="IrfanView 64-bit" />
   <Association Identifier=".png" ProgId="IrfanView.png" ApplicationName="IrfanView 64-bit" />
@@ -82,8 +113,6 @@
   <Association Identifier=".tif" ProgId="IrfanView.tif" ApplicationName="IrfanView 64-bit" />
   <Association Identifier=".tiff" ProgId="IrfanView.tif" ApplicationName="IrfanView 64-bit" />
   <Association Identifier=".tod" ProgId="AppX6eg8h5sxqq90pv53845wmnbewywdqq5h" />
-  <Association Identifier=".TS" ProgId="VLC.ts" ApplicationName="VLC media player" />
-  <Association Identifier=".TTS" ProgId="VLC.tts" ApplicationName="VLC media player" />
   <Association Identifier=".txt" ProgId="Applications\notepad++.exe" ApplicationName="Notepad++ : a free (GNU) source code editor" />
   <Association Identifier=".url" ProgId="IE.AssocFile.URL" />
   <Association Identifier=".wdp" ProgId="IrfanView.hdp" ApplicationName="IrfanView 64-bit" />
@@ -91,9 +120,7 @@
   <Association Identifier=".webp" ProgId="IrfanView.webp" ApplicationName="IrfanView 64-bit" />
   <Association Identifier=".wm" ProgId="AppX6eg8h5sxqq90pv53845wmnbewywdqq5h" />
   <Association Identifier=".wmf" ProgId="IrfanView.wmf" ApplicationName="IrfanView 64-bit" />
-  <Association Identifier=".wmv" ProgId="VLC.wmv" ApplicationName="VLC media player" />
   <Association Identifier=".wtx" ProgId="Applications\notepad++.exe" ApplicationName="Notepad++ : a free (GNU) source code editor" />
-  <Association Identifier=".wvx" ProgId="VLC.wvx" ApplicationName="VLC media player" />
   <Association Identifier=".xbm" ProgId="IrfanView.xbm" ApplicationName="IrfanView 64-bit" />
   <Association Identifier=".xpm" ProgId="IrfanView.xpm" ApplicationName="IrfanView 64-bit" />
   <Association Identifier=".xvid" ProgId="AppX6eg8h5sxqq90pv53845wmnbewywdqq5h" />
