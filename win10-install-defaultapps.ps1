@@ -43,7 +43,7 @@ $tweaks = @(
 	"InstallPlex",
 	"InstallMSTeams",
 	"InstallTeamViewer",
-	"ChangeDefaultApps",
+	"ChangeDefaultApps"
 )
 
 #########
