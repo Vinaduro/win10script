@@ -8,7 +8,7 @@
 #
 #	Addition: One command to rule them all, One command to find it, and One command to Run it! 
 #
-#     > powershell -nop -c "iex(New-Object Net.WebClient).DownloadString('https://git.io/JJ8R4')"
+#     > powershell -nop -c "iex(New-Object Net.WebClient).DownloadString('https://git.io/JTocF')"
 #
 #	Chris Titus Tech Additions:
 #
@@ -192,10 +192,6 @@ $tweaks = @(
 	### Auxiliary Functions ###
 )
 
-#########
-# Recommended Titus Customizations
-#########
-
 function Show-Choco-Menu {
     param(
         [Parameter(Mandatory)]
@@ -275,7 +271,29 @@ Function InstallTeamViewer {
 	Show-Choco-Menu -Title "Do you want to install Team Viewer??" -ChocoInstall "teamviewer"
 }
 
+Function InstallJava {
+	Show-Choco-Menu -Title "Do you want to install Java??" -ChocoInstall "jre8"
+}
 
+Function Install7Zip {
+	Show-Choco-Menu -Title "Do you want to install 7zip??" -ChocoInstall "7zip"
+}
+
+Function InstallNotepadplusplus {
+	Show-Choco-Menu -Title "Do you want to install Notepad++??" -ChocoInstall "notepadplusplus"
+}
+
+Function InstallVLC {
+	Show-Choco-Menu -Title "Do you want to install VLC" -ChocoInstall "vlc"
+}
+
+Function InstallKliteStandard {
+	Show-Choco-Menu -Title "Do you want to install K-Lite Media Pack??" -ChocoInstall "k-litecodecpack-standard"
+}
+
+Function InstallIrfanview {
+	Show-Choco-Menu -Title "Do you want to install irfanview??" -ChocoInstall "irfanview"
+}
 
 Function InstallBrave {
 	do
@@ -298,36 +316,6 @@ Function InstallBrave {
  }
  until ($selection -match "y" -or $selection -match "n" -or $selection -match "q")
 	
-}
-
-Function InstallJava {
-	Write-Output "Installing Java"
-	choco install jre8 -y
-}
-
-Function Install7Zip {
-	Write-Output "Installing 7-Zip"
-	choco install 7zip -y
-}
-
-Function InstallNotepadplusplus {
-	Write-Output "Installing Notepad++"
-	choco install notepadplusplus -y
-}
-
-Function InstallVLC {
-	Write-Output "Installing VLC"
-	choco install vlc -y
-}
-
-Function InstallKliteStandard {
-	Write-Output "Installing K-Lite Codec Pack Standard"
-	choco install k-litecodecpack-standard -y
-}
-
-Function InstallIrfanview {
-	Write-Output "Installing IrFanView Image Viewer"
-	choco install irfanview -y
 }
 
 Function ChangeDefaultApps {
