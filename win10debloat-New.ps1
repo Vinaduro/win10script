@@ -90,7 +90,7 @@ $tweaks = @(
 
 	### Service Tweaks ###
 	"DisableUpdateMSRT",          # "EnableUpdateMSRT",
-	"DisableUpdateDriver",        # "EnableUpdateDriver",
+	#"DisableUpdateDriver",        # "EnableUpdateDriver",
 	"DisableUpdateRestart",         # "EnableUpdateRestart",
 	"DisableHomeGroups",          # "EnableHomeGroups",
 	"DisableSharedExperiences",     # "EnableSharedExperiences",
@@ -221,9 +221,9 @@ function Show-Choco-Menu {
  until ($selection -match "y" -or $selection -match "n" -or $selection -match "q")
 }
 
-Function InstallPlex {
-Get-AppxPackage -AllUsers "CAF9E577.Plex" | ForEach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
-}
+#Function InstallPlex {
+#Get-AppxPackage -AllUsers "CAF9E577.Plex" | ForEach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
+#}
 
 Function TitusRegistryTweaks {
 	Write-Output "Improving Windows Update to delay Feature updates and only install Security Updates"
